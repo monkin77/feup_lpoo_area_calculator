@@ -1,7 +1,27 @@
+Ellipse.java
+ Ellipse
+HasArea.java
+ HasArea
+House.java
+ House
 Square.java
  Square
+Line.java
+ Line
 Shape.java
  Shape
+BasicShape.java
+ BasicShape
+Circle.java
+ Circle
+Drawable.java
+ Drawable
+Rectangle.java
+ Rectangle
+Triangle.java
+ Triangle
+SumProvider.java
+ SumProvider
 AreaStringOutputter.java
  AreaStringOutputter
 AreaAggregator.java
@@ -10,11 +30,5 @@ Application.java
  Application
 AreaXMLOutputter.java
  AreaXMLOutputter
-Rectangle.java
- Rectangle
-Triangle.java
- Triangle
-Circle.java
- Circle
-Ellipse.java
- Ellipse
+City.java
+ City
