@@ -16,11 +16,11 @@ public class AreaAggregator {
             } else if (shape.getClass().equals(Square.class)) {
                 sum += Math.pow(((Square) shape).getSide(), 2);
             }
+            else if(shape.getClass().equals(Ellipse.class)){
+                sum += Math.PI* ((Ellipse) shape).getxRadius() * ((Ellipse) shape).getyRadius();
+            }
         }
         return sum;
     }
 
-    public String output() {
-        return "Sum of areas: " + sum();
-    }
 }

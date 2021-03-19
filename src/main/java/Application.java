@@ -4,6 +4,12 @@ public class Application {
         areaAggregator.addShape(new Circle(1));
         areaAggregator.addShape(new Circle(2));
         areaAggregator.addShape(new Square(2));
-        System.out.println( areaAggregator.output() );
+        areaAggregator.addShape(new Ellipse(2, 3));
+
+        AreaStringOutputter areaStringOutputter = new AreaStringOutputter(areaAggregator);
+        AreaXMLOutputter areaXMLOutputter = new AreaXMLOutputter(areaAggregator);
+
+        System.out.println(areaStringOutputter.output());
+        System.out.println(areaXMLOutputter.output());
     }
 }
